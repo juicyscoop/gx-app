@@ -10,7 +10,6 @@ app = FastAPI()
 # INITIALIZE SOLVER
 solver = Solver(embeddings_csv_filename='../../data/vectors.csv')    
 
-# Call this endpoint first to set up word embeddings
 @app.get("/prepare")
 async def prepare():
     solver.prepare(phrases_csv_filename='../../data/phrases.csv')
