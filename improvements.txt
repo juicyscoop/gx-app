@@ -1,0 +1,4 @@
+1. Separate code into objects by fucntionality to make it modular
+2. Implement error handling
+3. Use a postgresql database instead of csv files and in-memory storage
+4. Implement parallel data-ingestion to speed-up loading of embeddings

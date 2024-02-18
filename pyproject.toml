@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=40.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gx"
+version = "0.1.0"
+authors = [
+    { name = "Oskar Marelja", email = "oskarmarelja@gmail.com" },
+]
+license = "MIT"
+description = "A short description of the project."
+readme = "README.md"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "requests",
+    "numpy",
+    "pandas>=1.0.0",
+    "scipy",
+    "gensim",
+]
