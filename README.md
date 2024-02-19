@@ -1,5 +1,11 @@
 # FastAPI Word Embeddings Demo App
 
+## Important
+
+The application presumes:
+  the extracted word embeddings are in the path: /ata/vectors.csv
+  the phrases are in the path: /data/phrases.csv
+
 ## Getting Started
 
 Recommended: Setup a virtual environment, for example on linux systems:
